@@ -1,0 +1,46 @@
+/* Reset */
+* {
+    margin: 0;
+    padding:0;
+}
+.row.hello{
+    padding-left: 100px;
+}
+.about_us{
+    text-align: left !important;
+}
+.header1{
+    background-color:aquamarine;
+    padding-top: 50px;
+}
+/* h1{
+    text-align: center;
+} */
+.icon li{
+list-style: none;
+display: inline-block;
+font-size: 50px;
+padding-right: 20px;
+margin-top: 30px;
+
+}
+.khoi_icon{
+    margin-left: 4.8rem;
+}
+#quick_link{
+    text-align: center;
+}
+#theul{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#dong{
+    margin-top: 50px;
+}
+.header2{
+    margin-top: 1px;
+    background-color:aquamarine;
+    height: 100px;
+    text-align: center; 
+    padding-top: 50px;
+}
