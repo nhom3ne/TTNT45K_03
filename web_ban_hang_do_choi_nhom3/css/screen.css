@@ -1,0 +1,316 @@
+/* section style */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .section-fluid {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 479px) {
+    .section-fluid {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  /* Section Spacing */
+  
+@media only screen and (max-width: 767px) {
+    .section-padding {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+  
+
+  @media only screen and (max-width: 767px) {
+    .section-margin {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 767px) {
+    .section-margin-top {
+      margin-top: 60px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .section-margin-bottom {
+      margin-bottom: 60px;
+    }
+  }
+  /* Section TItle */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-title {
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .section-title {
+      margin-bottom: 40px;
+    }
+  }
+  
+@media only screen and (max-width: 767px) {
+    .section-title .title {
+      font-size: 24px;
+    }
+  }
+  /* swiper default styles */
+  
+@media only screen and (max-width: 767px) {
+    .swiper-pagination {
+      margin-top: 30px;
+    }
+  }
+  
+@media only screen and (max-width: 767px) {
+    .swiper-pagination .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  
+@media only screen and (min-width: 1200px) and (max-width: 1599px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .arrow-outside-container {
+      margin: 0;
+      padding: 0;
+    }
+  }
+@media only screen and (min-width: 1200px) and (max-width: 1599px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .arrow-outside-container .swiper-container {
+      margin: 0;
+      padding: 0;
+    }
+  }
+ /*====================
+     Header top CSS
+====================*/
+@media only screen and (max-width: 479px) {
+    .header-top {
+      min-height: 78px;
+    }
+  }
+  /* Logo */
+  @media only screen and (max-width: 479px) {
+    .header-logo {
+      max-width: 140px;
+    }
+  }
+  /* Main Menu */
+  
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .main-menu > ul > li + li {
+      margin-left: 25px;
+    }
+  }
+  /* Mega Menu */
+  
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .mega-menu {
+      width: 960px;
+    }
+  }
+  /* Actions */
+  
+@media only screen and (max-width: 767px) {
+    .header-actions > * + * {
+      margin-left: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .header-actions > * + * {
+      margin-left: 15px;
+    }
+  }
+  
+@media only screen and (max-width: 479px) {
+    .header-actions .header-action-btn i {
+      font-size: 24px;
+    }
+  }
+  
+@media only screen and (max-width: 479px) {
+    .header-actions .header-action-btn .header-action-num {
+      font-size: 10px;
+      line-height: 14px;
+      width: 14px;
+      height: 14px;
+      top: -5px;
+      right: 2px;
+    }
+  }
+  
+@media only screen and (max-width: 767px) {
+    .header-actions.header-actions-width .header-action-right > * + * {
+      margin-left: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .header-actions.header-actions-width .header-action-right > * + * {
+      margin-left: 15px;
+    }
+  }
+  
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .header-actions.header-actions-width .header-action-left .search-bar {
+      width: 180px;
+    }
+  }
+  /* Sticky header */
+  /*====================
+   Header Offcanvas CSS
+====================*/
+/* Offcanvas Overlay */
+/*  Offcanvas Search */
+/*====================
+     Header Cart CSS
+====================*/
+/*  Cart Offcanvas Wrapper */
+/*-- Cart Offcanvas Inner --*/
+
+@media only screen and (max-width: 575px) {
+    .cart-offcanvas-inner {
+      width: 280px;
+    }
+  }
+  
+@media only screen and (max-width: 575px) {
+    .cart-offcanvas-inner .offcanvas-btn-close {
+      font-size: 40px;
+    }
+  }
+  /*-- Offcanvas Cart Content --*/
+  
+@media only screen and (max-width: 575px) {
+    .cart-product-wrapper .single-cart-product .cart-product-thumb {
+      width: 60px;
+    }
+  }
+  
+@media only screen and (max-width: 575px) {
+    .cart-product-wrapper .single-cart-product .cart-product-content {
+      width: calc(100% - 60px);
+    }
+  }
+  
+/*----------------------------------------*/
+/*  04. Hero CSS
+/*----------------------------------------*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px), only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero-slide-item {
+      height: 500px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-slide-item {
+      height: 400px;
+    }
+    .hero-slide-content .btn-slider1{
+        position:relative ;
+        top: 80px;
+        left: 350px;
+      }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .hero-slide-item {
+      height: 300px;
+    }
+    .hero-slide-content .btn-slider1{
+        position:relative ;
+        top: 50px;
+        left: 300px;
+      }
+  }
+  
+  @media only screen and (max-width: 479px) {
+    .hero-slide-item {
+      height: 220px;
+    }
+    .hero-slide-content .btn-slider1{
+        position:relative ;
+        top: 40px;
+        left: 150px;
+      }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero-slide-content .title {
+      font-size: 50px;
+      margin-bottom: 25px;
+      line-height: 1.1;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-slide-content .title {
+      font-size: 40px;
+      margin-bottom: 20px;
+      line-height: 1.1;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .hero-slide-content .title {
+      font-size: 30px;
+      margin-bottom: 15px;
+      line-height: 1.1;
+    }
+  }
+  
+  @media only screen and (max-width: 479px) {
+    .hero-slide-content .title {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .hero-slide-content p {
+      font-size: 16px;
+      line-height: 1;
+    }
+  }
+  
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .hero-slide-content .btn {
+      font-size: 14px;
+      padding: 15px 25px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .hero-slide-content .btn {
+      margin-top: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 479px) {
+    .hero-slide-content .btn {
+      font-size: 12px;
+      padding: 10px 18px;
+      margin-top: 26px;
+    }
+  }
+  
+@media only screen and (min-width: 1200px) and (max-width: 1599px), only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero-slider .home-slider-prev {
+      left: 5px;
+    }
+  }
+  
+@media only screen and (min-width: 1200px) and (max-width: 1599px), only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero-slider .home-slider-next {
+      right: 5px;
+    }
+  }    
