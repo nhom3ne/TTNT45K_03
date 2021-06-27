@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bai17</title>
+<style>
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #333;
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  
+  /* Layout */
+  .client {
+    margin: 30px auto;
+    width: 1140px;
+  }
+  .client h2 {
+    color: #ffce1b;
+    font-size: 45px;
+    margin-bottom: 31px;
+    text-align: center;
+  }
+  .client .client-list li {
+    float: left;
+    padding: 40px;
+    text-align: center;
+    width: 490px;
+  }
+  .client .client-list li:nth-child(3n) {
+  /* Xóa float cho thành phần thứ 3, 6, 9 ... */
+    clear: left;
+  }
+  .client .client-list li .logo {
+    margin-bottom: 4px;
+  }
+  .client .client-list li .info-text {
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+  <section class="client">
+    <h2>What Our Clients Say</h2>
+    <ul class="client-list">
+      <li>
+        <p class="logo"><img src="./img/logo-ibm.png" alt="IBM"></p>
+        <p class="info-text">Vestibulum justo libero, dapibus vitae nibh at, faucibus dignissim massa. Curabitur quis, dignissim turpis nec, volutpat risus.</p>
+      </li>
+
+      <li>
+        <p class="logo"><img src="./img/logo-microsoft.png" alt="Microsoft"></p>
+        <p class="info-text">Consectetur adipiscing elit. Nulla sit amet suscipit est. Nulla iaculis ipsum sit. Donec malesuada posuere mi.</p>
+      </li>
+
+      <li>
+        <p class="logo"><img src="./img/logo-apple.png" alt="Apple"></p>
+        <p class="info-text">Mauris nec dictum ipsum. Proin massa orci, laoreet non, tempor quis nunc. Maecenas lacus arcu, posuere et congue sed.</p>
+      </li>
+      
+      <li>
+        <p class="logo"><img src="./img/logo-google.png" alt="Google"></p>
+        <p class="info-text">Vivamus metus nisi, ultrices vel porttitor sollicitudin, aliquam id tortor. Vestibulum justo libero, dapibus vitae nibh at.</p>
+      </li>
+    </ul>
+  </section>
+</body>
+</html>
