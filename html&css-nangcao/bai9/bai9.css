@@ -1,0 +1,89 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #000;
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  
+  /* Layout */
+  #footer {
+    background-color: #1f1f1f;
+    color: #999;
+    padding: 60px 0 28px;
+  }
+  #footer .inner {
+    margin: 0 auto;
+    width: 1140px;
+  }
+  #footer .inner h3 {
+    color: #fff;
+    margin-top: 3px;
+    margin-bottom: 25px;
+  }
+  #footer .inner .about-us {
+    float: left;
+    width: 360px;
+  }
+  #footer .inner .about-us .logo {
+    margin-bottom: 42px;
+  }
+  #footer .inner > div {
+    float: left;
+    margin-right: 30px;
+  }
+  #footer .inner > div:last-child {
+    margin-right: 0;
+  }
+  #footer .inner .info-link,
+  #footer .inner .contact-detail {
+    width: 260px;
+  }
+  #footer .inner .social {
+    width: 165px;
+  }
+  #footer .inner ul.link-list li {
+    border-bottom: 1px dashed #363636;
+    font-size: 15px;
+    margin-bottom: 11px;
+    padding-bottom: 9px;
+  }
+  #footer .inner ul.link-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  #footer .inner ul.link-list li a {
+    color: #999;
+    text-decoration: none;
+    transition: 0.3s color;
+  }
+  #footer .inner ul.link-list li a:hover {
+    color: #fff;
+  }
+  #footer .inner ul.link-list li i {
+    border-right: 1px dashed #363636;
+    padding-right: 16px;
+    margin-right: 14px;
+    font-size: 14px;
+  }
+  #footer .inner ul.link-list li address {
+    font-style: normal;
+  }

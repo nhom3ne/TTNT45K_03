@@ -1,0 +1,53 @@
+ /* Reset */
+ * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #333;
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  
+  /* Layout */
+  .client {
+    margin: 30px auto;
+    width: 1140px;
+  }
+  .client h2 {
+    color: #ffce1b;
+    font-size: 45px;
+    margin-bottom: 31px;
+    text-align: center;
+  }
+  .client .client-list li {
+    float: left;
+    padding: 40px;
+    text-align: center;
+    width: 490px;
+  }
+  .client .client-list li:nth-child(3n) {
+  /* Xóa float cho thành phần thứ 3, 6, 9 ... */
+    clear: left;
+  }
+  .client .client-list li .logo {
+    margin-bottom: 4px;
+  }
+  .client .client-list li .info-text {
+    font-style: italic;
+  }
