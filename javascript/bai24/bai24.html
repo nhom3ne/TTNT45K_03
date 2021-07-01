@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript-bai24</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            select{
+                padding: 10px;
+                width: 200px;
+                height: 200px;
+            }
+            select option{
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Ví dụ chuyển đổi phần tử của 2 thẻ Select Multiple</h2>
+        <h3>Chọn các chuyên mục từ danh sách dưới đây</h3>
+
+        <select multiple id="left">
+            <option value="tin công nghệ">Tin công nghệ</option>
+            <option value="tin thời sự">Tin thời sự</option>
+            <option value="tin quốc tế">Tin quốc tế</option>
+            <option value="tin thể thao">Tin thể thao</option>
+            <option value="tin nông nghiệp">Tin nông nghiệp</option>
+        </select>
+        <input type="button" id="left_to_right" value="<<" onclick="left_to_right(1)"/>
+        <input type="button" id="right_to_left" value=">>" onclick="left_to_right(2)"/>
+        <select multiple id="right">
+        </select>
+
+    <script src="./bai22.js"></script>
+    </body>
+</html>
